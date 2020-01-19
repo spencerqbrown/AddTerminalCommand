@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Adding command $1"
+chmod +x $1
+sudo cp $1 /usr/bin/
